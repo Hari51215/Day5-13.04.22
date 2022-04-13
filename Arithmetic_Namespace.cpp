@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstdlib>
 using namespace std;
 
 namespace arithmetic
@@ -57,6 +58,7 @@ int main()
             break;
         default:
             cout<<"Oops ... ! Invalid Choice ;\nKindly enter the choice 1 to 5 only . . ."<<endl;
+            exit (0);
     }
     cout<<"Based on your choice, The Result of the Arithmetic Calculation is : "<<result<<endl;
     return 0;

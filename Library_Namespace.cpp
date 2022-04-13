@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cstdlib>
 #include<string>
+
 using namespace std;
 
 namespace library
@@ -45,7 +46,9 @@ class library::students : public library::books
 
 };
 
+
 using namespace library;
+
 int main()
 {
     string s_name;
